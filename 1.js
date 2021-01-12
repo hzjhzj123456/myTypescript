@@ -23,3 +23,10 @@ var Person = /** @class */ (function () {
 var p1 = new Person("张帅", 18, 1);
 p1.sayName();
 p1.sayAge();
+
+function getNum({a,b,c=3}){
+    return (a+b+c)
+}
+
+let count = getNum({a:1,b:2})
+console.log("1234444",count);
